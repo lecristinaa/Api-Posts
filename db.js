@@ -4,7 +4,7 @@ mongoose.set('strictQuery', true) // seta uma Query de forma estrita
 // conecta com o MongoAtlas
 // MongoAtlas permite deixar o banco online
 async function main(){
-    await mongoose.connect('mongodb+srv://lecristina:<lesalomao>@cluster0.xgic0hk.mongodb.net/?retryWrites=true&w=majority')
+    await mongoose.connect('mongodb+srv://lecristina:lesalomao@cluster0.xgic0hk.mongodb.net/?retryWrites=true&w=majority')
     console.log('Conectado ao MongoDB')
 }
 
